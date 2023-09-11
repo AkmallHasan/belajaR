@@ -1,0 +1,24 @@
+# RScript vs RMarkdown
+RMarkdown dan RScript adalah dua konsep yang berbeda dalam lingkungan pemrograman R, dan keduanya memiliki peran dan tujuan yang berbeda:
+
+## RMarkdown
+
+1. Tujuan Utama: RMarkdown digunakan untuk membuat laporan, dokumentasi, presentasi, dan artikel yang menggabungkan teks naratif, kode R, dan hasil analisis dalam satu dokumen yang dapat di-render dalam berbagai format output (misalnya, HTML, PDF, Word).
+2. Format Dokumen: RMarkdown adalah format dokumen berbasis teks yang menggunakan sintaks Markdown untuk penulisan teks naratif. Kode R dapat disisipkan dalam blok kode yang diawali dengan tanda `````{r}````.
+3. Interaktif: RMarkdown memungkinkan Anda untuk menciptakan dokumen yang interaktif di mana kode R dapat dieksekusi saat dokumen di-render. Hasil dari eksekusi kode R akan secara otomatis dimasukkan ke dalam dokumen.
+4. Penggunaan Umum: RMarkdown sangat berguna untuk pembuatan laporan analisis data, buku, tutorial, artikel ilmiah, dan presentasi yang melibatkan analisis data dengan R.
+
+## RScript
+
+1. Tujuan Utama: RScript adalah berkas R yang berisi serangkaian pernyataan atau perintah R yang dijalankan secara berurutan. Tujuannya adalah untuk menjalankan perintah R secara otomatis tanpa interaksi langsung.
+2. Format Berkas: RScript adalah berkas teks biasa yang biasanya memiliki ekstensi .R. Ini adalah berkas yang berisi kode R yang akan dieksekusi dari awal hingga akhir.
+3. Non-Interaktif: RScript tidak interaktif secara alami. Artinya, kode di dalamnya dijalankan tanpa interaksi langsung dari pengguna. Biasanya, RScript digunakan untuk tugas-tugas otomatisasi, perangkat lunak batch, atau skenario yang tidak memerlukan tampilan interaktif.
+4. Penggunaan Umum: RScript berguna untuk otomatisasi tugas, pengolahan data yang berkala, pembuatan plot, perhitungan, dan eksekusi kode R tanpa campur tangan manusia.
+
+## Kesimpulan
+
+Dengan kata lain, perbedaan utama antara RMarkdown dan RScript adalah bahwa RMarkdown digunakan untuk membuat laporan dan dokumentasi yang menggabungkan teks naratif dan kode R dalam dokumen yang bisa di-render, sedangkan RScript adalah berkas atau skrip yang berisi kode R yang dijalankan secara otomatis untuk tugas-tugas pemrosesan data atau otomatisasi. Keduanya memiliki tujuan dan penggunaan yang berbeda sesuai dengan kebutuhan Anda dalam mengembangkan dan mendokumentasikan proyek R Anda.
+
+
+
+
